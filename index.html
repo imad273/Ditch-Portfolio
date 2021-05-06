@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+<!-- Font import -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="hero">
+        <header>
+            <div class="logo">
+                <h1>IMAD</h1>
+            </div>
+            <div class="slid-menu-icon">
+                <i class="fas fa-bars" id="open-btn" onclick="openFunction()"></i>
+            </div>
+            <nav>
+                <a href="#skills" onclick="skls()">Skills</a>
+                <a href="#work" id="work-btn">My Work</a>
+                <a href="#contact" id="contact-btn">Contact</a>
+            </nav>
+        </header>
+        <div class="phone">
+            <nav id="nav-phone">
+                <i class="fas fa-window-close" id="close-btn" onclick="closeFunction()"></i>
+                <a href="#skills">Skills</a>
+                <a href="#work">My Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="main">
+                <h1>Welcome</h1>
+                <p>To My Portfolio</p>
+            </div>
+            <div class="intr-self">
+                <p>Imad Abbad is creative <span>Front-end Developer,</span> with 1 years exeperience, Now i'm work in Freelance. And hope to be at your Services.</p>
+                <button onclick="skls()">My Work</button>
+            </div>
+        </div>
+        <div class="social-media">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="title-skills">
+            <h1>My Skills</h1>
+        </div>
+        <div class="skills-bar">
+            <div class="bar">
+                <span>HTML<i class="fab fa-html5"></i><p>80%</p></span>
+            </div>
+            <div class="bar" id="bar-2">
+                <span>CSS<i class="fab fa-css3-alt"></i><p>74%</p></span>
+            </div>
+            <div class="bar" id="bar-3">
+                <span>JavaScript<i class="fab fa-js-square"></i><p>65%</p></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="title-work">
+            <h1>My Work</h1>
+        </div>
+        <div class="boxex">
+            <div class="box">
+                <img src="images/HDIW.PNG">
+                <h1>How Does It Work</h1>
+                <p>Single Page HTML&CSS, showing the details of How this site is work!</p>
+                <a href="https://imad273.github.io/Single_page_HTML_HDIW/" target="_blank">Show</a>
+            </div>
+            <div class="box">
+                <img src="images/PO.PNG">
+                <h1>Pricing Option</h1>
+                <p>One Page of Template HTML&CSS, showing the details of Payment subscribe.</p>
+                <a href="https://imad273.github.io/Pricing_option/" target="_blank">Show</a>
+            </div>
+        </div>
+        <div class="more-btn">
+            <a href="#">MORE</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-title">
+            <h1>Contact</h1>
+        </div>
+        <div class="content-contact">
+            <div class="left-con">
+                <i class="fas fa-envelope-open-text"></i>
+                <span>Email: <p>desmad203@gmail.com</p></span>
+            </div>
+            <div class="right-content">
+                <form>
+                    <h1>Get in touch</h1>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea cols="10" rows="10" placeholder="Message..."></textarea>
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+<script src="js/app.js"></script>
+</body>
+</html>
