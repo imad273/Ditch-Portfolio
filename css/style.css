@@ -152,6 +152,7 @@ header nav a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
 }
 .title-skills h1{
     font-family: 'Ubuntu', sans-serif;
@@ -214,9 +215,8 @@ header nav a:hover{
     max-width: 80%;
     position: relative;
     right: 1px;
-    top: 39px;
-    height: 7px;
-    
+    top: 40px;
+    height: 9px;
     background-color: #222;
     z-index: 999;
     border-radius: 15px;
@@ -482,5 +482,9 @@ header nav a:hover{
     .slid-menu-icon{
         display: block;
         font-size: 20px;
+    }
+    .skills{
+        padding-top: 0px;
+        margin-top: 0px;
     }
 }
