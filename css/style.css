@@ -11,43 +11,44 @@ body{
     background-color: #eee;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    scroll-behavior: smooth;
 }
 body a{
     text-decoration: none;
 }
 
+/* start the styling of page one 'Home' */
 .hero{
     height: 90vh;
 }
-header{
+.hero header{
     background-image: linear-gradient(to right, #3138fd, #2b32ff);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 80px;
 }
-header .logo h1{
+.hero header .logo h1{
     color: #eee;
     font-family: 'Great Vibes', cursive;
     letter-spacing: 5px;
     cursor: pointer;
 }
-.phone nav{
-    display: none;
-}
-.slid-menu-icon{
-    display: none;
-}
-
-header nav a{
+.hero header nav a{
     color: #eee;
     margin-left: 25px;
     font-weight: bold;
     transition: .3s;
 }
-header nav a:hover{
+.hero header nav a:hover{
     color: rgb(210, 210, 210);
+}
+
+.hero .phone nav{
+    display: none;
+}
+
+.slid-menu-icon{
+    display: none;
 }
 
 .content{
@@ -122,7 +123,7 @@ header nav a:hover{
     border: 2px solid #2b32ff;
 }
 
-.social-media{
+.hero .social-media{
     text-align: center;
     width: 100%;
     margin: auto;
@@ -131,30 +132,33 @@ header nav a:hover{
     bottom: 0px;
     background-color: #fff;
 }
-.social-media i{
+.hero .social-media i{
     color: rgb(65, 65, 65);
     font-size: 20px;
     margin: 15px;
     cursor: pointer;
     transition: .3s;
 }
-.social-media i:hover{
+.hero .social-media i:hover{
     color: #222;
 }
 
+/* End of styling the page one 'Home' */
+
+/* start the style of page two 'skills' */
 
 .skills{
     height: 100vh;
     background-color: #3138fd;
 }
-.title-skills{
+.skills .title-skills{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 0px;
 }
-.title-skills h1{
+.skills .title-skills h1{
     font-family: 'Ubuntu', sans-serif;
     font-size: 46px;
     letter-spacing: 2px;
@@ -162,7 +166,7 @@ header nav a:hover{
     padding-top: 60px;
     cursor: default;
 }
-.title-skills h1::after{
+.skills .title-skills h1::after{
     content: '';
     display: block;
     width: 100px;
@@ -174,7 +178,7 @@ header nav a:hover{
     top: 15px;
 }
 
-.skills-bar{
+.skills .skills-bar{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,24 +187,24 @@ header nav a:hover{
     padding-top: 130px;
     margin: auto;
 }
-.skills-bar .bar{
+.skills .skills-bar .bar{
     margin: 20px;
 }
-.skills-bar .bar span{
+.skills .skills-bar .bar span{
     font-size: 20px;
     margin-left: 5px;
 }
-.skills-bar .bar i{
+.skills .skills-bar .bar i{
     margin-left: 10px;
     font-size: 20px;
 }
-.skills-bar .bar p{
+.skills .skills-bar .bar p{
     float: right;
     font-size: 16px;
     margin-top: 5px;
 }
 
-.skills-bar .bar::after{
+.skills .skills-bar .bar::after{
     content: '';
     display: block;
     max-width: 550px;
@@ -210,7 +214,7 @@ header nav a:hover{
     background-color: #eee;
     border-radius: 15px;
 }
-.skills-bar .bar::before{
+.skills .skills-bar .bar::before{
     content: '';
     display: block;
     max-width: 80%;
@@ -229,10 +233,14 @@ header nav a:hover{
     max-width: 65%;
 }
 
+/* End of styling the page one 'skills' */
+
+/* start the style of page two 'work' */
+
 .work{
     height: 100vh;
 }
-.title-work h1{
+.work .title-work h1{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 46px;
@@ -241,7 +249,7 @@ header nav a:hover{
     padding-top: 40px;
     cursor: default;
 }
-.title-work h1::after{
+.work .title-work h1::after{
     content: '';
     display: block;
     width: 100px;
@@ -253,14 +261,13 @@ header nav a:hover{
     top: 15px;
 }
 
-
-.boxex{
+.work .boxex{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
 }
-.box{
+.work .boxex .box{
     background-color: #fff;
     color: #000;
     margin: 10px;
@@ -269,24 +276,24 @@ header nav a:hover{
     display: flex;
     flex-direction: column;
 }
-.box img{
+.work .box img{
     width: 100%;
     height: 250px;
     padding: 5px;
 }
 
-.box h1{
+.work .box h1{
     font-family: 'Ubuntu', sans-serif;
     padding: 10px;
     color: #222;
     cursor: default;
 }
-.box p{
+.work .box p{
     color: rgb(65, 65, 65);
     font-size: 16px;
     padding: 10px;
 }
-.box a{
+.work .box a{
     margin-top: 30px;
     width: 100%;
     height: 50px;
@@ -301,19 +308,19 @@ header nav a:hover{
     border-top: 2px solid #2b32ff;
     transition: .3s;
 }
-.box a:hover{
+.work .box a:hover{
     border-top: 2px solid #eee;
     background-color: #fff;
     font-weight: bold;
     color: #000;
 }
 
-.more-btn{
+.work .more-btn{
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-.more-btn a{
+.work .more-btn a{
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1px;
     background-color: #2b32ff;
@@ -323,17 +330,22 @@ header nav a:hover{
     font-weight: bold;
     transition: .3s;
 }
-.more-btn a:hover{
+.work .more-btn a:hover{
     background-color: #fff;
     color: #000;
     border: 2px solid #2b32ff;
 }
 
+/* End of styling the page one 'work' */
+
+/* start the style of page two 'contact' */
+
+
 .contact{
     height: 100vh;
     background-color: #2b32ff;
 }
-.contact-title h1{
+.contact .contact-title h1{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 46px;
@@ -342,7 +354,7 @@ header nav a:hover{
     padding-top: 40px;
     cursor: default;
 }
-.contact-title h1::after{
+.contact .contact-title h1::after{
     content: '';
     display: block;
     width: 100px;
@@ -353,7 +365,7 @@ header nav a:hover{
     position: relative;
     top: 15px;
 }
-.content-contact{
+.contact .content-contact{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -378,22 +390,22 @@ header nav a:hover{
     font-size: 16px;
     color: rgb(211, 211, 211);
 }
-.right-content{
+.contact .right-content{
     width: 400px;
     margin: 50px;
 }
-.right-content form{
+.contact .right-content form{
     display: flex;
     background-color: #fff;
     flex-direction: column;
     border-radius: 5px;
 }
-.right-content form h1{
+.contact .right-content form h1{
     font-family: 'Ubuntu', sans-serif;
     color: #222;
     padding: 30px 15px;
 }
-.right-content form input{
+.contact .right-content form input{
     background-color: #eee;
     margin: 10px 15px;
     border-radius: 25px;
@@ -402,14 +414,15 @@ header nav a:hover{
     height: 35px;
     outline: none;
 }
-.right-content form textarea{
+.contact .right-content form textarea{
     margin: 10px 15px;
     background-color: #eee;
     outline: none;
     padding: 10px;
     resize: none;
+    border: none;
 }
-.right-content form button{
+.contact .right-content form button{
     font-family: 'Ubuntu', sans-serif;
     width: 160px;
     margin: auto;
@@ -421,16 +434,17 @@ header nav a:hover{
     color: #fff;
     border: 2px solid #2b32ff;
     cursor: pointer;
-    
     transition: .3s;
 }
-.right-content form button:hover{
+.contact .right-content form button:hover{
     background-color: #eee;
     border: 2px solid #2b32ff;
     color: #000;
 }
 
+/* End of styling the page one 'contact' */
 
+/* styling for tablet and large phone */
 
 @media screen and (max-width: 750px){
     .work{
@@ -446,6 +460,8 @@ header nav a:hover{
         padding-bottom: 20px;
     }
 }
+
+/* styling for phone */
 
 @media screen and (max-width: 535px) {
     nav{

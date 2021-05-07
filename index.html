@@ -9,27 +9,37 @@
 <!-- Font import -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
-    
+<!-- Main File style CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
 
     <title>Imad | Portfolio</title>
 </head>
 <body>
+
+    <!-- hero is the First Page in template -->
+
     <section class="hero">
         <header>
             <div class="logo">
                 <h1>IMAD</h1>
             </div>
+            
+        <!-- this icon for Phone styling, To show the slid menu -->
+
             <div class="slid-menu-icon">
                 <i class="fas fa-bars" id="open-btn" onclick="openFunction()"></i>
             </div>
+
+        <!-- nav of Desktop Design -->
+            
             <nav>
-                <a href="#skills" onclick="skls()">Skills</a>
-                <a href="#work" id="work-btn">My Work</a>
-                <a href="#contact" id="contact-btn">Contact</a>
+                <a href="#skills">Skills</a>
+                <a href="#work">My Work</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
         <div class="phone">
+            <!-- nav for Phone Design -->
             <nav id="nav-phone">
                 <i class="fas fa-window-close" id="close-btn" onclick="closeFunction()"></i>
                 <a href="#skills">Skills</a>
@@ -54,6 +64,8 @@
         </div>
     </section>
 
+<!-- Section two for skills page -->
+    
     <section class="skills" id="skills">
         <div class="title-skills">
             <h1>My Skills</h1>
@@ -71,6 +83,8 @@
         </div>
     </section>
 
+<!-- section three for work page -->
+    
     <section class="work" id="work">
         <div class="title-work">
             <h1>My Work</h1>
@@ -94,6 +108,8 @@
         </div>
     </section>
 
+<!-- section four for contact page -->
+
     <section class="contact" id="contact">
         <div class="contact-title">
             <h1>Contact</h1>
@@ -114,7 +130,6 @@
             </div>
         </div>
     </section>
-
 
 <script src="js/app.js"></script>
 </body>
