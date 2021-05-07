@@ -216,8 +216,7 @@ header nav a:hover{
     right: 1px;
     top: 39px;
     height: 7px;
-    -webkit-margin-top-collapse: 1px;
-    margin-top: 5px;
+    
     background-color: #222;
     z-index: 999;
     border-radius: 15px;
