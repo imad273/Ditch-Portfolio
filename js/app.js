@@ -1,6 +1,3 @@
-window.onscroll = function(){
-    console.log(window.pageYOffset)
-};
 
 function skls(){
     var elm = document.getElementById("skills");
