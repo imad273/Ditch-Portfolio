@@ -443,7 +443,7 @@ header nav a:hover{
         margin-top: 20px;
     }
     .more-btn{
-        margin-bottom: 30px;
+        padding-bottom: 20px;
     }
 }
 
@@ -483,9 +483,5 @@ header nav a:hover{
     .slid-menu-icon{
         display: block;
         font-size: 20px;
-    }
-    .skills{
-        padding-top: 0px;
-        margin-top: 0px;
     }
 }
