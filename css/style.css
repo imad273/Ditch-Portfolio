@@ -271,14 +271,14 @@ body a{
     background-color: #fff;
     color: #000;
     margin: 10px;
-    height: 400px;
+    height: 100%;
     width: 260px;
     display: flex;
     flex-direction: column;
 }
 .work .box img{
     width: 100%;
-    height: 250px;
+    height: auto;
     padding: 5px;
 }
 
@@ -467,8 +467,8 @@ body a{
     nav{
         display: none;
     }
-    header{
-        padding: 25px 40px;
+    .hero header{
+        padding: 25px 35px;
     }
     .phone nav{
         display: none;

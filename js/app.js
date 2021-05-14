@@ -1,8 +1,9 @@
 // The main button for home page 'my work' //
-function skls(){
+var myWork = document.getElementById("my-work");
+myWork.addEventListener("click", function(){
     var elm = document.getElementById("skills");
     elm.scrollIntoView();
-}
+})
 
 // Open the slid menu for phone //
 
