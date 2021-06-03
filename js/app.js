@@ -1,9 +1,3 @@
-
-window.onload = function(){
-    document.getElementById("load").style.display = "none";
-}
-
-
 // The main button for home page 'my work' //
 var myWork = document.getElementById("my-work");
 myWork.addEventListener("click", function(){
