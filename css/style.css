@@ -13,7 +13,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #fcecdd;
+    background-color: #f1faee;
     font-family: 'Lato', sans-serif;
     color: #fff;
 }
@@ -26,17 +26,10 @@ body a{
     height: 90vh;
 }
 .hero header{
-    background: #ffc288;
+    background: #e63946;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 80px;
-}
-.hero header .logo h1{
-    color: #eee;
-    font-family: 'Great Vibes', cursive;
-    letter-spacing: 5px;
-    cursor: default;
+    justify-content: center;
+    padding: 25px 0px;
 }
 .hero header nav a{
     color: #eee;
@@ -45,7 +38,7 @@ body a{
     transition: .3s;
 }
 .hero header nav a:hover{
-    color: #fff;
+    color: #f1faee;
 }
 
 .hero .phone nav{
@@ -76,7 +69,7 @@ body a{
     position: relative;
     top: 15px;
     height: 3px;
-    background-color: #ffc288;
+    background-color: #e63946;
     display: block;
     margin: auto;
 }
@@ -104,7 +97,7 @@ body a{
     padding: 15px;
 }
 .content .intr-self p span{
-    color: #ffc288;
+    color: #e63946;
     font-weight: 600;
 }
 .content .intr-self button{
@@ -116,16 +109,16 @@ body a{
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 16px;
-    background-color: #ffc288;
-    border: 2px solid #ffc288;
+    background-color: #e63946;
+    border: 2px solid #e63946;
     border-radius: 5px;
     cursor: pointer;
     transition: .3s;
 }
 .content .intr-self button:hover{
-    background-color: #fcecdd;
+    background-color: #f1faee;
     color: #000;
-    border: 2px solid #ffc288;
+    border: 2px solid #e63946;
 }
 
 .hero .social-media{
@@ -135,7 +128,7 @@ body a{
     padding: 8px;
     position: absolute;
     bottom: 0px;
-    background-color: #ffc288;
+    background-color: #e63946;
 }
 .hero .social-media i{
     color: #eee;
@@ -152,7 +145,7 @@ body a{
 /* start the style of page two 'skills' */
 .skills{
     height: 100vh;
-    background-color: #fcecdd;
+    background-color: #f1faee;
 }
 .skills .title-skills{
     display: flex;
@@ -175,7 +168,7 @@ body a{
     display: block;
     width: 100px;
     height: 3px;
-    background-color: #ffc288;
+    background-color: #e63946;
     text-align: center;
     margin: auto;
     position: relative;
@@ -242,13 +235,13 @@ body a{
 /* start the style of page two 'work' */
 .work{
     height: 100vh;
-    background-color: #ffc288;
+    background-color: #e63946;
 }
 .work .title-work h1{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 46px;
-    color: #222;
+    color: #fff;
     letter-spacing: 2px;
     padding-top: 40px;
     cursor: default;
@@ -258,7 +251,7 @@ body a{
     display: block;
     width: 100px;
     height: 3px;
-    background-color: #fcecdd;
+    background-color: #e63946;
     text-align: center;
     margin: auto;
     position: relative;
@@ -304,12 +297,12 @@ body a{
     color: #222;
     font-weight: bold;
     letter-spacing: 1px;
-    background-color: #fcecdd;
+    background-color: #f1faee;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #fcecdd;
-    border-top: 2px solid #fcecdd;
+    border-bottom: 2px solid #f1faee;
+    border-top: 2px solid #e63946;
     transition: .3s;
 }
 .work .box a:hover{
@@ -327,25 +320,25 @@ body a{
 .work .more-btn a{
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1px;
-    background-color: #fcecdd;
+    background-color: #f1faee;
     color: #222;
     padding: 10px 50px;
-    border: 2px solid #fcecdd;
+    border: 2px solid #f1faee;
     border-radius: 5px;
     font-weight: bold;
     transition: .3s;
 }
 .work .more-btn a:hover{
-    background-color: #eee;
-    color: #222;
-    border: 2px solid #fcecdd;
+    background-color: #e63946;
+    color: #fff;
+    border: 2px solid #f1faee;
 }
 /* End of styling the page one 'work' */
 
 /* start the style of page two 'contact' */
 .contact{
     height: 100vh;
-    background-color: #fcecdd;
+    background-color: #f1faee;
 }
 .contact .contact-title h1{
     text-align: center;
@@ -361,7 +354,7 @@ body a{
     display: block;
     width: 100px;
     height: 3px;
-    background-color: #ffc288;
+    background-color: #e63946;
     text-align: center;
     margin: auto;
     position: relative;
@@ -434,16 +427,16 @@ body a{
     margin-top: 10px;
     height: 35px;
     border: none;
-    background-color: #ffc288;
-    color: #222;
-    border: 2px solid #ffc288;
+    background-color: #e63946;
+    color: #fff;
+    border: 2px solid #e63946;
     border-radius: 5px;
     cursor: pointer;
     transition: .3s;
 }
 .contact .right-content form button:hover{
-    background-color: #eee;
-    border: 2px solid #fcecdd;
+    background-color: #f1faee;
+    border: 2px solid #e63946;
     color: #000;
 }
 /* End of styling the page one 'contact' */
