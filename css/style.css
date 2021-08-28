@@ -193,6 +193,9 @@ footer{
     }
 }
 @media screen and (max-width:475px){
+    .hero header{
+        padding: 15px 20px;
+    }
     .menu{
         display: block;
         font-size: 22px;

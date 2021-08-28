@@ -11,8 +11,11 @@ exit.addEventListener("click", ()=>{
     nav.style.width = "0px";
 })
 
-for(i; i < link.length; i++){
-    link[i].addEventListener("click", ()=>{
-        nav.style.width = "0px";
-    })
+if(window.innerWidth < "475"){
+    for(i; i < link.length; i++){
+        link[i].addEventListener("click", ()=>{
+            nav.style.width = "0px";
+        })
+    }
 }
+
