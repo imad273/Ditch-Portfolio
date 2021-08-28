@@ -1,12 +1,12 @@
 <?php
-    if(isset($_POST["send"])){
-        $myEmail = "desmad203@gmail.com";
-        $subject = "mail test";
-        $msg = $_POST['msg'];
-        $mail = $_POST['email'];
-        $headers = 'From :' . $mail . '\r\n';
-        mail($myEmail, $subject, $msg, $headers);
-        header("Location: index.php?mailsend");
+    if($_SERVER['REQUEST_METHOD'] == "POST"){
+        $to = "desmad203@gmail.com";
+        $subject = "Message from website";
+        $msg = $_POST["msg"];
+        $name = $_POST['name'];
+        $email = $_POST['address'];
+        $headers = "from:" . $name . "\r\n" .  "address: " . $email; 
+        header("location: index.html");
         exit();
     }
 ?>

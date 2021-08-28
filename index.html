@@ -1,133 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
-<!-- Main File style CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="css/style.css">
-    <title>Imad | Portfolio</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Font Import -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <!-- Icon import -->
+   <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   <!-- Main style CSS -->
+   <link rel="stylesheet" href="css/style.css">
+   <title>Imad | Portfolio</title>
 </head>
-<body>
-    <!-- hero is the First Page in Website -->
-    <section class="hero">
-        <header>
-        <!-- This icon for Phone styling, To show the slide menu -->
-            <div class="slid-menu-icon">
-                <i class="fas fa-bars" id="open-btn" onclick="openFunction()"></i>
-            </div>
 
-        <!-- Nav of Desktop -->    
-            <nav>
-                <a href="#skills">Skills</a>
-                <a href="#work">My Work</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
-        <div class="phone">
+<section class="hero">
+   <header>
+      <div class="logo">
+         <img src="images/logo.png" alt="logo">
+      </div>
+      <div class="menu" id="menu">
+         <i class='bx bx-menu-alt-right'></i>
+      </div>
+      <nav id="nav">
+         <i class='bx bxs-exit' id="exit"></i>
+         <a href="#">Home</a>
+         <a href="#skills">Skills</a>
+         <a href="#work">My Work</a>
+         <a href="#contact">Contact</a>
+      </nav>
+   </header>
+   <div class="con">
+      <p>I'm Imad abbad, a Web developer</p>
+      <span>I love programming and always develop my self by learning new things</span>
+      <div class="social">
+         <i class='bx bxl-github'></i>
+         <i class='bx bxl-linkedin-square'></i>
+         <i class='bx bxl-twitter'></i>
+         <i class='bx bxl-instagram'></i>
+         <i class='bx bxl-facebook-circle'></i>
+      </div>
+   </div>
+</section>
 
-            <!-- nav for Phone Design -->
-            <nav id="nav-phone">
-                <i class="fas fa-window-close" id="close-btn" onclick="closeFunction()"></i>
-                <a href="#skills">Skills</a>
-                <a href="#work">My Work</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
-        <div class="content">
-            <div class="main">
-                <h1>Welcome</h1>
-                <p>To My Portfolio</p>
+<section class="skills" id="skills">
+   <div class="title">
+      <h1>My skills</h1>
+   </div>
+   <div class="container stats">
+      <div class="row">
+         <div class="col-md-4">
+            <div class="stat">
+               <i class='bx bxl-html5'></i>HTML5
+               <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star-half'></i>
+               </div>
             </div>
-            <div class="intr-self">
-                <p>Imad Abbad is creative <span>Front-end Developer</span>, With 1 years exeperience, Now i'm work in Freelance. And hope to be at your Services.</p>
-                <button id="my-work">My Work</button>
+         </div>
+         <div class="col-md-4">
+            <div class="stat">
+               <i class='bx bxl-css3'></i>CSS3
+               <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bx-star'></i>
+               </div>
             </div>
-        </div>
-        <div class="social-media">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-        </div>
-    </section>
+         </div>
+         <div class="col-md-4">
+            <div class="stat">
+               <i class='bx bxl-javascript'></i>JavaScript
+               <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star-half'></i>
+                  <i class='bx bx-star'></i>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-4">
+            <div class="stat">
+               <i class='bx bxl-php'></i>PHP
+               <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bx-star'></i>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="stat">
+               <i class='bx bxs-data'></i>MYSQL
+               <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="stat">
+               <i class='bx bxl-bootstrap'></i>Bootstrap
+               <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<section class="work" id="work">
+   <div class="title">
+      <h1>My Work</h1>
+   </div>
+   <div class="container stats">
+      <div class="row">
+         <div class="col-md-4">
+            <div class="stat">
+               <img src="images/Capture.PNG" alt="img">
+               <h1 class="name">BelyFood</h1>
+               <p>BelyFood is a complete website with admin panel, For order food, Making with PHP and MYSQL.</p>
+               <a href="http://tructry.ueuo.com/" target="_blank" class="btn btn-primary w-100">Demo</a>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="stat">
+               <img src="images/clck.PNG" alt="img">
+               <h1 class="name">Clock</h1>
+               <p>This website is a clock, Making with HTML5 and CSS3 and javascript only, No backend.</p>
+               <a href="https://imad273.github.io/CLOCK/" target="_blank" class="btn btn-primary w-100">Demo</a>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="stat">
+               <img src="images/Capture2.PNG" alt="img">
+               <h1 class="name">TRUCTRY</h1>
+               <p>TRUCTRY is my first ecommerce i build with member system, login to admin panel by added /admin in the link.</p>
+               <a href="http://ecom.ueuo.com/" target="_blank" class="btn btn-primary w-100">Demo</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<section class="contact" id="contact">
+   <div class="title">
+      <h1>Contact</h1>
+   </div>
+   <div class="email text-center m-4">
+      <i class='bx bx-mail-send'></i> desmad203@gmail.com
+   </div>
+   <div class="form">
+      <form method="POST" action="contact.php">
+         <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name" name="name">
+         </div>
+         <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Email Address" name="address">
+         </div>
+         <div class="mb-3">
+            <textarea class="form-control" rows="3" placeholder="Message..." name="msg"></textarea>
+         </div>
+         <button type="submit" class="btn btn-primary w-100">Send</button>
+      </form>
+   </div>
+</section>
 
-<!-- Section two for Skills page -->  
-    <section class="skills" id="skills">
-        <div class="title-skills">
-            <h1>My Skills</h1>
-        </div>
-        <div class="skills-bar">
-            <div class="bar">
-                <span>HTML<i class="fab fa-html5"></i><p>80%</p></span>
-            </div>
-            <div class="bar" id="bar-2">
-                <span>CSS<i class="fab fa-css3-alt"></i><p>74%</p></span>
-            </div>
-            <div class="bar" id="bar-3">
-                <span>JavaScript<i class="fab fa-js-square"></i><p>65%</p></span>
-            </div>
-        </div>
-    </section>
+<footer class="text-center">
+   ©2021 Imad Abbad. All rights reserved.
+</footer>
 
-<!-- Section Three for Work Page -->  
-    <section class="work" id="work">
-        <div class="title-work">
-            <h1>My Work</h1>
-        </div>
-        <div class="boxex">
-            <div class="box">
-                <img src="images/HDIW.PNG">
-                <h1>How Does It Work</h1>
-                <p>Single Page HTML&CSS, showing the details of How this site is work!</p>
-                <a href="https://imad273.github.io/Single_page_HTML_HDIW/" target="_blank">Show</a>
-            </div>
-
-            <div class="box">
-                <img src="images/PO.PNG">
-                <h1>Pricing Option</h1>
-                <p>One Page of Template HTML&CSS, showing the details of Payment subscribe.</p>
-                <a href="https://imad273.github.io/Pricing_option/" target="_blank">Show</a>
-            </div>
-
-            <div class="box">
-                <img src="images/clck.PNG">
-                <h1>Clock</h1>
-                <p>a semple clock I will design with beautiful look and awesome color. with JavaScript </p>
-                <a href="https://imad273.github.io/CLOCK/" target="_blank">Show</a>
-            </div>
-        </div>
-        <div class="more-btn">
-            <a href="#">MORE</a>
-        </div>
-    </section>
-
-<!-- Section Sour for Contact Page -->
-    <section class="contact" id="contact">
-        <div class="contact-title">
-            <h1>Contact</h1>
-        </div>
-        <div class="content-contact">
-            <div class="left-con">
-                <i class="fas fa-envelope-open-text"></i>
-                <span>Email: <p>desmad203@gmail.com</p></span>
-            </div>
-            <div class="right-content">
-                <form method="POST" action="contact.php">
-                    <h1>Get in touch</h1>
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="email" name="email" placeholder="Email">
-                    <textarea cols="10" rows="10" name="msg" placeholder="Message..."></textarea>
-                    <button name="send">Send</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
 </body>
+
 </html>
