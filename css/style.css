@@ -14,6 +14,9 @@
 .menu{
     display: none;
 }
+#exit{
+    display: none;
+}
 .title{
     padding: 30px 50px;
 }
@@ -210,7 +213,8 @@ footer{
         top: 0px;
         transition: .4s;
     }
-    nav i{
+    #exit{
+        display: block;
         position: absolute;
         top: 20px;
         right: 20px;

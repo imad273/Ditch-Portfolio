@@ -1,7 +1,18 @@
-document.getElementById("menu").addEventListener("click", ()=>{
-    document.getElementById("nav").style.width = "100%";
+var nav  = document.getElementById("nav"); 
+var menu = document.getElementById("menu");
+var exit = document.getElementById("exit");
+var link = document.getElementsByClassName("link");
+var i = 0;
+menu.addEventListener("click", ()=>{
+    nav.style.width = "100%";
 })
 
-document.getElementById("exit").addEventListener("click", ()=>{
-    document.getElementById("nav").style.width = "0px";
+exit.addEventListener("click", ()=>{
+    nav.style.width = "0px";
 })
+
+for(i; i < link.length; i++){
+    link[i].addEventListener("click", ()=>{
+        nav.style.width = "0px";
+    })
+}
