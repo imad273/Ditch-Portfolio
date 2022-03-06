@@ -1,9 +1,5 @@
 module.exports = {
-   mode: 'jit',
-   purge: [
-      './public/*.html'
-   ],
-   darkMode: false, // or 'media' or 'class'
+   content: ["./public/*.{html,js}"],
    theme: {
       extend: {
          colors: {
@@ -20,9 +16,6 @@ module.exports = {
       container: {
          center: true
       }
-   },
-   variants: {
-      extend: {},
    },
    plugins: [],
 }

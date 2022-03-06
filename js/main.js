@@ -6,6 +6,7 @@ openBtn.addEventListener("click", () => {
    menu.style.display = "flex";
    closeBtn.style.display = "block"
 })
+
 closeBtn.addEventListener("click", () => {
    menu.style.display = "none";
    closeBtn.style.display = "none"

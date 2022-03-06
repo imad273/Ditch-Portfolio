@@ -1,16 +1,14 @@
 {
-  "dependencies": {
-    "tailwindcss": "^2.2.19"
-  },
-  "name": "portfolio",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "name": "ditch",
+  "version": "1.5.0",
   "scripts": {
-    "build": "tailwind build -i src/style.css -o public/style.css"
+    "watch": "tailwindcss -i src/style.css -o public/style.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
 }
